@@ -1,0 +1,126 @@
+body {
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+a {
+  color: blue;
+}
+div#header {
+    width: auto;
+    background-color: rgba(1, 1, 1, 0.322); /* If this color is changed change the border color to match do not delete border! */
+    border: solid;
+    border-color: rgba(1, 1, 1, 0.267);
+}
+h1#pgttl {
+    font-size: 70px;
+    font-family: fantasy;
+    color: White;
+    text-shadow: 5px 5px 4px #000000;
+}
+h2{
+    color: white;
+    font-size: 40px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p#footertxt {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.712);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  span#opnbtn {
+      left: 5px;
+      position: fixed;
+      font-size: 30px;
+      color: white;
+  }
+  .update-log {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.update-log:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.log-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.log-header h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.log-header p {
+    font-style: italic;
+    color: #555;
+}
+
+.log-description {
+    display: none;
+    margin-top: 10px;
+    color: #333;
+}
+
+.update-log:hover .log-description {
+    display: block;
+}
+
+.log-description p {
+  color: black;
+}
