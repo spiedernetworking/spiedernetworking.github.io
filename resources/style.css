@@ -124,3 +124,23 @@ p#footertxt {
 .log-description p {
   color: black;
 }
+
+footer {
+    background-color: rgba(17, 17, 17, 0.712);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+    color: #09f;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
