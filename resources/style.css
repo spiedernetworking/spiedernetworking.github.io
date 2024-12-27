@@ -6,7 +6,10 @@ body {
     margin:0;
     padding: 0;
     text-align: center;
-    padding-bottom: 60px; /* Adjust this value based on the footer height */
+    padding-bottom: 0; /* Remove the padding-bottom */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 a {
   color: blue;
@@ -126,16 +129,20 @@ p#footertxt {
   color: black;
 }
 
+#content {
+    flex: 1;
+}
+
 footer {
     background-color: rgba(17, 17, 17, 0.712);
     color: white;
     text-align: center;
-    position: fixed;
+    position: relative; /* Change position to relative */
     padding: 10px 0;
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
-    height: 60px; /* Ensure this matches the padding-bottom value */
+    height: auto; /* Adjust height */
 }
 
 footer a {
