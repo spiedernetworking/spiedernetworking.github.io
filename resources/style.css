@@ -6,6 +6,7 @@ body {
     margin:0;
     padding: 0;
     text-align: center;
+    padding-bottom: 60px; /* Adjust this value based on the footer height */
 }
 a {
   color: blue;
@@ -134,6 +135,7 @@ footer {
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    height: 60px; /* Ensure this matches the padding-bottom value */
 }
 
 footer a {
